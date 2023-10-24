@@ -1,0 +1,87 @@
+.app{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-bar{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(1, 131, 131);
+}
+.nav-bar li{
+  display: inline-block;
+  padding: 15px ;
+}
+.nav-bar li a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0px;
+  padding: 10px 20px;
+  color: white;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  float:left;
+  width: 50px;
+  margin:5px 15px;
+}
+.form{
+  margin-left: 30%;
+}
+.form input{
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid rgb(1, 131, 131);
+}
+.form button{
+  margin-top: 14px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 30px;
+  color: rgb(1, 131, 131);
+  border:  2px solid rgb(1, 131, 131);
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 100px;
+}
+.error-message{
+  color:red;
+  display: block;
+  margin-top: -12px;
+}
+.all-products{
+  text-align: center;
+}
+.all-products input{
+  padding: 5px 15px;
+  height: 25px;
+  width: 250px;
+  margin-bottom: 20px;
+  border:  2px solid rgb(1, 131, 131);
+  color:black;
+}
+.all-products ul{
+  margin: 0px;
+  padding: 0px;
+}
+.all-products ul li{
+  display: inline-block;
+  border:  2px solid rgb(1, 131, 131);
+  padding:10px 30px;
+  font-weight: bold;
+  width: 200px;
+
+}
+.product-header li{
+   font-weight: inherit !important;
+}
+.footer{
+  position:absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(1, 131, 131);
+  color: white;
+}
